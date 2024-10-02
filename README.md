@@ -1,4 +1,36 @@
 # 이준희 202030228
+## 10월 4일 강의
+
+```jsx
+export default function Blog(props){
+    console.log(props)
+    return(
+        
+        <>
+            <h1>Blog Page</h1>
+            <h1>blog: {props.params.blog}</h1>
+            <h1>blog: {props.searchParams.id}</h1>
+            <h1>blog: {props.searchParams.name}</h1>
+        </>
+    )
+}
+```
+
+```jsx
+export default function Foo(){
+  const router = useRouter()
+  const {foo, id, name,posts } = router.query
+  console.log{router}
+  return(
+    <>
+    <h1>posts:{posts}</h1>
+    <h1>foo:{foo}</h1>
+    <h1>id:{id}</h1>
+    <h1>name:{name}</h1>
+    </>
+  )
+}
+```
 ## 9월 25일 강의
 #### 컴포넌트에서 경로 매개변수 사용하가
 
