@@ -1,4 +1,20 @@
 # 이준희 202030228
+## 10월 23일 강의
+##### 서버에서 REST API 사용하기
+
+- REST API 를 호출할 때는 public API 를 호출할 것인지, private API를 호출할 것인지를 먼저 확입합니다
+##### 컴포넌트 구성
+- 컴포넌트는 세 가지로 분류하고 각 컴포넌트와 관련된 스타일 및 테스트 파일을 같은 곳에 두어야 합니다.  
+- mkdir components && cd components  
+  mkdir atoms  
+  mkdir molecules  
+  mkdir organisms  
+  mkdir templates
+- 코드를 더 효율적으로 구성하기 위해 아토믹 디자인 원칙에 따라 디렉토리를 구성. 
+
+#### 코드 구성과 데이터 불러오기
+
+- 프로젝트를 시작할 때 애플리케이션의 확장과 복잡도 증가에 대비해야 합니다.  
 
 ## 10월 4일 강의
 #### Page Project Layout - layout.jsx
