@@ -1,4 +1,16 @@
 # 이준희 202030228
+
+## 11월 13일 강의
+
+#### Context API 개요
+- Context는 UX구축에 많이 사용되는 React의 기능.
+- React는 16.3 버전부터 정식으로 context.api 지원
+
+#### Props 흐름의 이해 
+- Next.js의 데이터 흐름은 단방향.
+- 즉, parents에서 child component의 방향으로 props의 흐름이 이루어 집니다.  
+
+
 ## 11월 6일 강의
 
 #### UI 라이브러리
