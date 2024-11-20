@@ -1,4 +1,44 @@
 # 이준희 202030228
+## 11월 20일 강의
+
+#### Context API vs Redux
+###### Redux 
+- Redux는 전역 상태를 관리하기 위한 독립전인 state 관리 라이브러리
+- 상태의 변경을 예측 가능하게 하고, 전역 state 관리를 더 구조적으로 지원
+  
+[장점]  
+-> 명확한 상태 관리 구조 : 액션과 reducer를 통해 state dispatch 과정을 예측 가능하게 만들고, 코드 가독성 ↑  
+-> 미들웨어 지원 : redux-thunk, redux-saga와 같은 미들웨어를 사용해 비동기 로직 쉽게 처리  
+[단점]  
+-> 설정과 코드 복잡도 : Context API 에 비해 설정이 복잡  
+-> 추가 라이브러리 필요 : Redux 자체가 외부 라이브러리이므로 설치 및 유지 필요
+###### Context API
+- React에서 기본적으로 제공하는 상태 관리 도구
+- Context API는 주로 전역 상태를 관리  
+
+
+[장점]  
+-> 간단하고 가볍다   
+-> 적은 설정 필요  
+[단점]  
+-> 복잡한 상태 관리에 한계    
+-> 상태가 업데이트되면 해당 상태를 사용하는 모든 하위 컴포넌트가 다시 렌더링 되므로, 상태 범위가 넓을 경우 성능에 영향을 미칠 수 있습니다.
+#### Directory 구조
+###### Redux Provider
+- src/store/store.js(counter 상태 관리)
+- src/store/CounterProvider(counter 기능 관련 컴포넌트)
+
+###### features 디렉토리
+- src/features/counter/counterSlice.js(상태 관리)
+- src/features/counter/Counter.js(기능 관련 컴포넌트)
+- src/features/user/useSlice.js(사용자 관련 상태 관리)
+- src/features/user/UserProfile.js(사용자 프로필 컴포넌트)
+###### Directory
+
+- app : Routing Page 관리
+- components : 재사용 가능한 공통 컴포넌트 관리
+- context : context 컴포넌트 관리
+- features : 기능별 컴포넌트 관리
 
 ## 11월 13일 강의
 
