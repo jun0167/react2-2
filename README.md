@@ -1,4 +1,22 @@
 # 이준희 202030228
+## 11월 27일 강의
+#### Next.js 프로젝트 배포 (GitHub)
+<img src="./img/github.png" style="border-radius: 40px;">
+
+###### 호스팅 비교  
+- Vercel 
+1. 비용: 무료
+2. 주요 특징: 최신 프론트에드 프레임워크 지원  
+
+- Cloudflare  
+1. 비용: 무료
+2. 주요 특징: 강력한 보안 및 성능 최적화 가능  
+
+- Netlify 
+1. 비용: 무료
+2. 주요 특징: 사용자 친화적인 UI와 강력한 배포 옵션
+
+
 ## 11월 20일 강의
 
 #### Context API vs Redux
